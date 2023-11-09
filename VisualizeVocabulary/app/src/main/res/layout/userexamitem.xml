@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/borderrr"
+    android:paddingBottom="10dp"
+    android:layout_height="580dp">
+
+
+    <ImageView
+        android:id="@+id/aswer2"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/borderrr"
+        android:src="@drawable/answer"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q" />
+
+    <TextView
+        android:id="@+id/q"
+        android:layout_width="370dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:background="@drawable/qback"
+        android:text="Opposite word of Abdicate??"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <Button
+        android:id="@+id/useroption1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/question"
+        android:text="retain"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q" />
+
+    <Button
+        android:id="@+id/useroption2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/question"
+        android:text="retain"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q" />
+
+    <Button
+        android:id="@+id/useroption3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/question"
+        android:text="retain"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q" />
+
+    <Button
+        android:id="@+id/useroption4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/question"
+        android:text="retain"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
